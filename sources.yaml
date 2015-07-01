@@ -1,0 +1,18 @@
+avd-scitools:
+  git_url: git@github.com:scitools/conda-recipes-scitools
+avd-cray:
+  git_url: ssh://git@exxgitrepo:7999/avd/scientificsoftwarestack.git
+  git_rev: feature/cray_login
+avd-desktop:
+  git_url: ssh://git@exxgitrepo:7999/avd/scientificsoftwarestack.git
+  git_rev: master
+phils-magic:
+  fn: ~/dev/pelson/conda-recipes/
+moscitools-magic:
+  fn: ~/dev/stash/moscitools/conda
+iris-lts:
+  fn: ~/dev/pelson/conda-recipes/dummy/
+iris-lts-numpy:
+  fn: ~/dev/pelson/conda-recipes/dummy/np/numpy_19
+iris-lts-py:
+  fn: ~/dev/pelson/conda-recipes/dummy/py/python_35

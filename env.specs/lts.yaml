@@ -1,0 +1,14 @@
+name: lts
+sources:
+  - [avd-desktop, iris-lts-py]
+  - [avd-scitools, iris-lts]
+  - [phils-magic, moscitools-magic]
+packages:
+  - mo_pack
+  - iris >=1.7,<1.8
+  # TODO: Put a test case in for space after operator.
+  - python <3.0
+  - numpy >=1.8
+  #- numpy >=1.8,<1.9
+  #- rose
+
